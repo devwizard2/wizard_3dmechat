@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: none;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+#chat-box {
+    position: absolute;
+    left: 50px;
+    top: 45%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+
+#chat-input {
+    width: 400px;
+    font-size: 18px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
